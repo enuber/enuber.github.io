@@ -1105,6 +1105,7 @@ Article Layouts: Slick Carousel
         height: auto;
         padding: 0;
         -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
         -webkit-transition: all .15s ease-in;
         transition: all .15s ease-in;
     }
@@ -1124,6 +1125,7 @@ Article Layouts: Slick Carousel
 
     .miscImage:hover {
         -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
         border-color: #751935;
     }
 }
@@ -1190,6 +1192,7 @@ Article Layouts: Slick Carousel
         width: 275px;
         height: 275px;
         -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
         -webkit-transition: all .15s ease-in;
         transition: all .15s ease-in;
         overflow: hidden;
@@ -1232,6 +1235,7 @@ Article Layouts: Slick Carousel
 
     .miscImage:hover {
         -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
         border-color: #751935;
     }
 }
@@ -1474,6 +1478,7 @@ Article Layouts: Slick Carousel
         width: 110px;
         height: 110px;
         -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
         -webkit-transition: all .15s ease-in;
         transition: all .15s ease-in; 
     }
@@ -1496,6 +1501,7 @@ Article Layouts: Slick Carousel
     
     .smallSquares:hover {
         -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
         border-color: #751935;
     }
     
