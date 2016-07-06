@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name=”viewport” content=”width=device-width, initial-scale=1”>
+        <title>Erik Nubers | Portfolio</title>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Lora|Rock+Salt' rel='stylesheet' type='text/css'>
+        <link href="js/slick/slick.css" rel="stylesheet" type="text/css" />
+        <link href="js/slick/slick-theme.css" rel="stylesheet" type="text/css" />
+        <!--        <link href="css/main.css" rel="stylesheet" type="text/css" />-->
+        <link href="css/main.min.css" rel="stylesheet" type="text/css" />
+        
+</head>
+	
+    
+
+
+    <body>
+        <header>
+            <a href="index.html">
+                <h1>Kreative</h1>
+                <h1>Designs</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adDesign.html">Ad Designs</a></li>
+                    <li><a href="articleLayout.html">Article Layouts</a></li>
+                    <li><a href="miscWork.html">Miscellaneous Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="selected">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="wrapper contactWrapper">
+            
+        	<div id="contactFullBox">
+            <section id="myContactInfo">
+                <div>
+                    <h2>Phone:</h2>
+                    <p><a href="tel:+1-714-330-4229">714-330-4229</a></p>
+                </div>
+                <div>
+                    <h2>Email:</h2>
+                    <p><a href="mailto:erik.nuber@yahoo.com?Subject=Hello" target="_top">erik.nuber@yahoo.com</a></p>
+                </div>
+                
+            </section>
+            
+            <form id="contactForm" action="mail.php" method="post">
+                
+                <div id="smamTitleBox">
+                    <h1>Send Me A Message</h1>
+                </div>    
+                
+                <fieldset>
+                    <legend> Your Contact Info: </legend>
+                    
+                    <label class="textAlignmentSingle" for="name">*Name:</label>
+                    <input type="text" id="name" name="user_name" required>
+                    <span class="contactHint">Enter Your Name.</span>
+
+                    <label class="textAlignmentSingle" for="email">*Email:</label>
+                    <input type="email" id="email" name="user_email" required>
+                    <span class="contactHint">Enter A Valid E-mail Address.</span>
+                    <div id="warning"></div>
+                    
+                    <label class="textAlignmentDouble" for="emailAgain">*Email Check:</label>
+                    <input type="email" id="emailAgain" name="user_emailAgain" required>
+                    <span class="contactHint">Reenter Your E-mail Address.</span>
+
+                    <label class="textAlignmentDouble" for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="user_phone">
+                    <span class="contactHint">Check Your Number Again.</span>
+                </fieldset>    
+                
+                <fieldset>
+                    <label class="textAlignmentSingle" for="message">Message:</label>
+                    <textarea id="message" name="user_message"></textarea>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>*Verification: </legend>
+                    <label class="textAlignmentSingle" for="mathProblem">1+2=</label>
+                    <input type="number" id="mathProblem" name="user_math" placeholder="Answer" required>
+                    <span class="contactHint numberProblem">Enter The Correct Answer.</span>
+                </fieldset>
+                
+                <div><p>* required</p></div>
+                
+                <input type="submit" id="submit" name="submit" value="Submit" >
+                
+            </form>
+                
+            </div>
+            
+            <footer>
+                <p>&copy; 2016 Erik Nuber </p>
+            </footer>
+            
+            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+            <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>	        
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js">
+            </script>
+            <script src="js/slick/slick.min.js"></script>
+<!--	        <script src="js/main.js" type="text/javascript" charset="utf-8"></script>-->
+            <script src="js/main.min.js" type="text/javascript" charset="utf-8"></script>
+            
+        </div>
+    </body>
+</html>
