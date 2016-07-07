@@ -743,6 +743,7 @@ h4 {
 
 @media screen and (max-width: 599px) {
 
+/*
     .overlaySpread, .overlayTitlePage {
         height: 28%;
         width: 90%;
@@ -754,7 +755,20 @@ h4 {
         max-width: 330px;
         max-height: 250px;
     }
+*/
 
+    .overlaySpread, .overlayTitlePage {
+        height: 320px;
+        width: 350px;
+    }    
+    
+    .overlaySpread img, .overlayTitlePage img {
+        margin: 3% auto;
+        height: 300px;
+        max-width: 330px;
+        max-height: 250px;
+    }
+    
     
     .closeIt {
         top: -12px;
