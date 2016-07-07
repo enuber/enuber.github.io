@@ -744,8 +744,8 @@ h4 {
 @media screen and (max-width: 599px) {
 
     .overlaySpread, .overlayTitlePage {
-        height: 26%;
-        width: 80%;
+        height: 28%;
+        width: 90%;
     }    
     
     .overlaySpread img, .overlayTitlePage img {
@@ -982,7 +982,7 @@ Article Layouts: Slick Carousel
 
     
 .articleGallery {
-	list-style:none;
+    list-style: none;
 	margin: 0 auto;
 	padding: 0;
 	display: block;
@@ -993,7 +993,7 @@ Article Layouts: Slick Carousel
 .articleGallery li {
 	display: inline-block;
     width: 40%;
-	margin:5px;
+	margin: 5px;
     text-align: center;
 }
 
@@ -1004,6 +1004,8 @@ Article Layouts: Slick Carousel
     margin: 0 auto;
     width: 100%;
 }
+
+
 
 /* ================================= 
   Miscellaneous Work: Images
