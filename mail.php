@@ -25,7 +25,8 @@
 
 <?php
     $name = $_POST['user_name'];
-    $email = $_POST['user_email'];
+//    $email = $_POST['user_email'];
+    $email = $_POST['_replyto'];
     $phone = $_POST['user_phone'];
     $message = $_POST['user_message'];
     $verify = $_POST['user_math'];

@@ -1643,7 +1643,7 @@ textarea {
     text-align: left;
     font-size: 11px;
     margin-bottom: -15px;
-    color: rgba(117, 25, 53, 1);
+/*    color: rgba(117, 25, 53, 1);*/
 }
 
 #contactForm span {
@@ -1673,6 +1673,17 @@ textarea {
 
 #submit:hover {
      background: rgba(117, 25, 53, .7);
+}
+
+#messageSent p {
+    font-size: 1.5em;
+    margin: 3%;
+}
+
+#messageSent div {
+    font-size: 1.5em;
+    padding: 3%;
+    text-align: left;
 }
 
 
