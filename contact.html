@@ -50,8 +50,9 @@
                 
             </section>
             
-            <form id="contactForm" action="mail.php" method="post">
-                
+<!--            <form id="contactForm" action="mail.php" method="post">-->
+                <form id="contactForm" action="https://formspree.io/erik.nuber@yahoo.com" method="post">
+                    
                 <div id="smamTitleBox">
                     <h1>Send Me A Message</h1>
                 </div>    
@@ -88,6 +89,9 @@
                     <input type="number" id="mathProblem" name="user_math" placeholder="Answer" required>
                     <span class="contactHint numberProblem">Enter The Correct Answer.</span>
                 </fieldset>
+                    
+<!--                This line is here for formspree to catch spam    -->
+                <input type="text" name="_gotcha" style="display:none" />    
                 
                 <div><p>* required</p></div>
                 
