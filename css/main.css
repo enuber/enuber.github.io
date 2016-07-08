@@ -133,12 +133,38 @@ nav a.selected, nav a:hover {
 
 nav li {
     padding: .15em;
-    margin: .15em
+    margin: .20em;
 }
 
 nav a {
     font-weight: 400;
     padding: 5px 30px;
+}
+
+@media screen and (min-width: 600px) {
+
+        nav li {
+            display: inline-block;    
+            padding: .25em .25em;
+            margin: .2em .1em;
+        }
+
+        nav a {
+            padding: .8em .7em;
+            margin: 0 -.15em;
+        }
+
+        nav {
+            font-size: 1.3em;
+        }
+
+}
+
+@media screen and (min-width: 700px) {
+
+        nav {
+            font-size: 1.4em;
+        }
 }
 
 /* ================================= 
@@ -1879,6 +1905,7 @@ footer {
           Navigation
         ==================================== */
         
+/*
             nav li {
                 display: inline-block;    
                 padding: .25em .1em;
@@ -1891,8 +1918,9 @@ footer {
             }
     
             nav {
-                font-size: 1.4em
+                font-size: 1.3em
             }
+*/
 
 }
 
@@ -1912,11 +1940,13 @@ footer {
                 line-height: .6em;
                 text-align: center;
                 color: #751935;
+/*
             }
     
             nav {
-                font-size: 1.55em;
+                font-size: 1.45em;
             }
+*/
 
 
 
