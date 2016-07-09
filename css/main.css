@@ -1650,7 +1650,7 @@ fieldset {
 
 input, textarea {
 	width:100%;
-	height:27px;
+/*	height:27px;*/
     background: none;
     border: none;
 	padding: 10px;
@@ -1762,7 +1762,7 @@ textarea {
         float: left;
         margin-top: 15px;
         width: 18%;
-        height: 30px;
+        height: 37px;
         cursor: pointer;
         line-height: normal;
         margin: 0;
@@ -1774,7 +1774,7 @@ textarea {
     }
     
      .textAlignmentDouble {
-        padding-top: 5px;
+        padding-top: 7px;
     }    
     
     input, textarea {
